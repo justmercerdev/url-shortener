@@ -21,8 +21,8 @@ A full-stack URL shortener with per-link click tracking and a daily analytics ch
 │  Create Link        │        │  GET  /{slug} → 302      │
 │  Link Detail        │        │  GET  /api/v1/analytics  │
 └─────────────────────┘        └──────────┬───────────────┘
-                                           │ JPA / Flyway
-                                           ▼
+                                          │ JPA / Flyway
+                                          ▼
                                 ┌──────────────────────────┐
                                 │   PostgreSQL             │
                                 │   Docker      → :5432    │

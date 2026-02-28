@@ -203,3 +203,5 @@ Uses H2 in-memory — no running database needed.
 
 - "Lets make a plan for a  production-grade URL shortener REST API with click analytics — Ask me any question you need around tech stack and architecture choices"
 - "We have the data for displaying a chart with the user agent breakdown. Lets add that data to the analytics page in a pie chart format."
+- "Looking at the current state of the project where would we start to run into performance issues if the dataset began to grow massively. Let's talk through potential solutions to these bottlenecks"
+- "Let's generate a good set of seed data going back in time a bit. We want the user agents to be randomized as well to simulate different machines doing the clicks"
